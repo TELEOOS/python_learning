@@ -1,11 +1,12 @@
 class Etudiant:
-    pass;
-guindo= Etudiant()
-Karim= Etudiant()
-fanta= Etudiant()
+    pass
 
-etudiant= [guindo,Karim,fanta];
+guindo = Etudiant()
+karim = Etudiant()
+fanta = Etudiant()
 
-for i in etudiant:
-    print(i)
-    print(f"Etudiant No:{i} est une instances ? {isinstance(i,Etudiant)}")
+etudiants = [guindo, karim, fanta]
+
+for etudiant in etudiants:
+    print(etudiant)
+    print(f"Etudiant : {etudiant} est une instance ? {isinstance(etudiant, Etudiant)}")
